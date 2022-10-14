@@ -1,0 +1,14 @@
+commit-info-accumulator:
+  path-to-save: D:\documents\
+  since: 2021-10-12T00:00:00.000
+  gitlab:
+    url: https://gitlab.com/api/v4/projects/{id}/repository/
+    token: glpat-tSP3-tWPSys1TxH7URRV
+    projects:
+      - id: 38943898
+        name: Transaction Counter
+      - id: 38943767
+        name: firstCI
+    file-tree-path: tree?recursive={isRecursive}&per_page={count}&page={page}
+    commit-info-path: commits?path={filePath}&since={since}
+
